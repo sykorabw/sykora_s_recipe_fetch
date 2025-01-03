@@ -14,19 +14,11 @@
 			remoteGlobalIDString = DF00A7C92D1B5645006BC234;
 			remoteInfo = "Sykora's Recipe Fetch";
 		};
-		DF00A7E52D1B5646006BC234 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DF00A7C22D1B5645006BC234 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DF00A7C92D1B5645006BC234;
-			remoteInfo = "Sykora's Recipe Fetch";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		DF00A7CA2D1B5645006BC234 /* Sykora's Recipe Fetch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sykora's Recipe Fetch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF00A7DA2D1B5646006BC234 /* Sykora's Recipe FetchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sykora's Recipe FetchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF00A7E42D1B5646006BC234 /* Sykora's Recipe FetchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sykora's Recipe FetchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +30,6 @@
 		DF00A7DD2D1B5646006BC234 /* Sykora's Recipe FetchTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Sykora's Recipe FetchTests";
-			sourceTree = "<group>";
-		};
-		DF00A7E72D1B5646006BC234 /* Sykora's Recipe FetchUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Sykora's Recipe FetchUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -62,13 +49,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF00A7E12D1B5646006BC234 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -77,7 +57,6 @@
 			children = (
 				DF00A7CC2D1B5645006BC234 /* Sykora's Recipe Fetch */,
 				DF00A7DD2D1B5646006BC234 /* Sykora's Recipe FetchTests */,
-				DF00A7E72D1B5646006BC234 /* Sykora's Recipe FetchUITests */,
 				DF00A7CB2D1B5645006BC234 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,7 +66,6 @@
 			children = (
 				DF00A7CA2D1B5645006BC234 /* Sykora's Recipe Fetch.app */,
 				DF00A7DA2D1B5646006BC234 /* Sykora's Recipe FetchTests.xctest */,
-				DF00A7E42D1B5646006BC234 /* Sykora's Recipe FetchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,29 +118,6 @@
 			productReference = DF00A7DA2D1B5646006BC234 /* Sykora's Recipe FetchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DF00A7E32D1B5646006BC234 /* Sykora's Recipe FetchUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF00A7F42D1B5646006BC234 /* Build configuration list for PBXNativeTarget "Sykora's Recipe FetchUITests" */;
-			buildPhases = (
-				DF00A7E02D1B5646006BC234 /* Sources */,
-				DF00A7E12D1B5646006BC234 /* Frameworks */,
-				DF00A7E22D1B5646006BC234 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DF00A7E62D1B5646006BC234 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				DF00A7E72D1B5646006BC234 /* Sykora's Recipe FetchUITests */,
-			);
-			name = "Sykora's Recipe FetchUITests";
-			packageProductDependencies = (
-			);
-			productName = "Sykora's Recipe FetchUITests";
-			productReference = DF00A7E42D1B5646006BC234 /* Sykora's Recipe FetchUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -177,10 +132,6 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					DF00A7D92D1B5646006BC234 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = DF00A7C92D1B5645006BC234;
-					};
-					DF00A7E32D1B5646006BC234 = {
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = DF00A7C92D1B5645006BC234;
 					};
@@ -202,7 +153,6 @@
 			targets = (
 				DF00A7C92D1B5645006BC234 /* Sykora's Recipe Fetch */,
 				DF00A7D92D1B5646006BC234 /* Sykora's Recipe FetchTests */,
-				DF00A7E32D1B5646006BC234 /* Sykora's Recipe FetchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +166,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DF00A7D82D1B5646006BC234 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DF00A7E22D1B5646006BC234 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -246,13 +189,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF00A7E02D1B5646006BC234 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -260,11 +196,6 @@
 			isa = PBXTargetDependency;
 			target = DF00A7C92D1B5645006BC234 /* Sykora's Recipe Fetch */;
 			targetProxy = DF00A7DB2D1B5646006BC234 /* PBXContainerItemProxy */;
-		};
-		DF00A7E62D1B5646006BC234 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DF00A7C92D1B5645006BC234 /* Sykora's Recipe Fetch */;
-			targetProxy = DF00A7E52D1B5646006BC234 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -329,6 +260,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -384,6 +316,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -413,7 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sykorabw.Sykora-s-Recipe-Fetch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -443,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sykorabw.Sykora-s-Recipe-Fetch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -461,7 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sykorabw.Sykora-s-Recipe-FetchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sykora's Recipe Fetch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sykora's Recipe Fetch";
 			};
@@ -480,43 +413,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sykorabw.Sykora-s-Recipe-FetchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sykora's Recipe Fetch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sykora's Recipe Fetch";
-			};
-			name = Release;
-		};
-		DF00A7F52D1B5646006BC234 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MFK3Q8A9Y6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sykorabw.Sykora-s-Recipe-FetchUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Sykora's Recipe Fetch";
-			};
-			name = Debug;
-		};
-		DF00A7F62D1B5646006BC234 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = MFK3Q8A9Y6;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sykorabw.Sykora-s-Recipe-FetchUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Sykora's Recipe Fetch";
 			};
 			name = Release;
 		};
@@ -546,15 +445,6 @@
 			buildConfigurations = (
 				DF00A7F22D1B5646006BC234 /* Debug */,
 				DF00A7F32D1B5646006BC234 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DF00A7F42D1B5646006BC234 /* Build configuration list for PBXNativeTarget "Sykora's Recipe FetchUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DF00A7F52D1B5646006BC234 /* Debug */,
-				DF00A7F62D1B5646006BC234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
